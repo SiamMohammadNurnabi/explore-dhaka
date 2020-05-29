@@ -1,9 +1,10 @@
 import React from "react";
-import Aux from "../hoc/Auxiliary";
+import Aux from "../../hoc/Auxiliary";
 import styled from "styled-components";
+import Reviews from "../../containers/Reviews/Reviews";
 
 const placeDetail = (props) => {
-  console.log(props);
+  // console.log(props);
   return (
     <Aux>
       <HeaderStyle className="container-fluid">
@@ -85,7 +86,7 @@ const placeDetail = (props) => {
           </div>
           {/* reviews */}
           <div className="tab-pane fade" id="reviews" role="tabpanel">
-            <h1>Reviews</h1>
+            <Reviews />
           </div>
           {/* map */}
           <div className="tab-pane fade" id="map" role="tabpanel">
@@ -126,6 +127,7 @@ const HeaderStyle = styled.header`
   }
   i {
     font-size: 1.75rem;
+    color: var(--gray);
   }
   i:hover {
     font-size: 2.5rem;

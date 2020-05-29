@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PlaceDetail from "../components/placeDetail";
+import PlaceDetail from "../components/PlaceDetail/PlaceDetail";
 import { db } from "../services/firebase";
 class PlaceDetails extends Component {
   state = {
