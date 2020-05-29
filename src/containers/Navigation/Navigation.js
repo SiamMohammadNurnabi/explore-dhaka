@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 class Navigation extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-dark mb-2">
+      <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <NavLink className="navbar-brand" to="/">
           Dhaka Explore Guide
         </NavLink>

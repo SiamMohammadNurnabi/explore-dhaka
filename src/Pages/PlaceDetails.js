@@ -32,7 +32,7 @@ class PlaceDetails extends Component {
         <PlaceDetail {...this.props} loadedPost={this.state.loadedPost} />
       );
     }
-    return <div className="container-fluid">{placeDetail}</div>;
+    return <div>{placeDetail}</div>;
   }
 }
 
