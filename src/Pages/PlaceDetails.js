@@ -29,14 +29,10 @@ class PlaceDetails extends Component {
     let placeDetail = <p>Loading</p>;
     if (this.state.loadedPost) {
       placeDetail = (
-        <PlaceDetail
-          title={this.state.loadedPost.headerTitle}
-          headerText={this.state.loadedPost.headerText}
-          {...this.props}
-        />
+        <PlaceDetail {...this.props} loadedPost={this.state.loadedPost} />
       );
     }
-    return <div className="container">{placeDetail}</div>;
+    return <div className="container-fluid">{placeDetail}</div>;
   }
 }
 
