@@ -5,8 +5,12 @@ class Navigation extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-        <NavLink className="navbar-brand" to="/">
-          Dhaka Explore Guide
+        <NavLink
+          className="navbar-brand"
+          to="/"
+          style={{ textTransform: "uppercase", fontWeight: "bold" }}
+        >
+          Explore dhaka
         </NavLink>
         <button
           className="navbar-toggler"
@@ -29,6 +33,7 @@ class Navigation extends Component {
                 className="nav-link text-light text-uppercase"
                 to="/"
                 activeStyle={{ color: "danger" }}
+                style={{ fontWeight: "bold" }}
               >
                 &nbsp;<i className="fas fa-home"></i>Home{" "}
                 <span className="sr-only">
@@ -39,15 +44,17 @@ class Navigation extends Component {
             <li className="nav-item ml-5">
               <NavLink
                 className="nav-link text-light text-uppercase"
-                to="/locations"
+                to="/news"
+                style={{ fontWeight: "bold" }}
               >
-                Locations
+                News
               </NavLink>
             </li>
             <li className="nav-item ml-5">
               <NavLink
                 className="nav-link text-light text-uppercase"
                 to="/contact-us"
+                style={{ fontWeight: "bold" }}
               >
                 Contact us
               </NavLink>
