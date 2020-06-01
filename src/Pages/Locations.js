@@ -31,7 +31,11 @@ class Locations extends Component {
     if (this.state.placeInfos) {
       locations = this.state.placeInfos.map((loc) => {
         return (
-          <Link to={"/" + loc.id} key={loc.id}>
+          <Link
+            to={"/places/" + loc.id}
+            key={loc.id}
+            style={{ textDecoration: "none" }}
+          >
             <Location
               headerTitle={loc.headerTitle}
               img={loc.img}

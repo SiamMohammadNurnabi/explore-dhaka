@@ -110,7 +110,7 @@ export default placeDetail;
 
 const HeaderStyle = styled.header`
   background: linear-gradient(rgba(82, 71, 98), rgba(255, 255, 255));
-  height: 70vh;
+  height: 85vh;
   text-transform: uppercase;
   text-align: center;
   color: var(--white);

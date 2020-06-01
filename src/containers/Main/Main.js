@@ -22,8 +22,8 @@ class Main extends Component {
           <Route path="/contact-us" component={ContactUs} />
           <Route path="/news" component={News} />
           <Route path="/" exact component={Home} />
-          <Route path={"/:id"} component={PlaceDetails} />
-          {/* <Route component={PageNotFound} /> */}
+          <Route path={"/places/:id"} component={PlaceDetails} />
+          <Route component={PageNotFound} />
         </Switch>
 
         <Footer />

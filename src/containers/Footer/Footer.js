@@ -10,6 +10,12 @@ const FooterStyled = styled.div`
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+  a {
+    color: var(--gray);
+  }
+  a:hover {
+    color: var(--secondary);
+  }
 `;
 
 class Footer extends Component {
@@ -20,39 +26,63 @@ class Footer extends Component {
           <div className="footer">
             <div className="row">
               <div className="col-md-3">
-                <h4 className="text-light">Contact us</h4>
-                <ul className="list-unstyled">
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
+                <h4 className="text-white">Contact us</h4>
+                <ul className="list-unstyled text-light">
+                  <li>Shimla Bazar</li>
+                  <li>Sarishabari</li>
+                  <li>Jamalpur</li>
+                  <li>Phone:01624592908</li>
                 </ul>
               </div>
               <div className="col-md-3">
                 <h4 className="text-light">Contact us</h4>
                 <ul className="list-unstyled">
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
                 </ul>
               </div>
               <div className="col-md-3">
                 <h4 className="text-light">Contact us</h4>
                 <ul className="list-unstyled">
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
                 </ul>
               </div>
               <div className="col-md-3">
                 <h4 className="text-light">Contact us</h4>
                 <ul className="list-unstyled">
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
-                  <li>Lorum ipsum</li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorum ipsum</a>
+                  </li>
                 </ul>
               </div>
             </div>
