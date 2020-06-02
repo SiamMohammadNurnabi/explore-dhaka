@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/explore-dhaka.git/static/css/main.23548085.chunk.css",
+    "main.js": "/explore-dhaka.git/static/js/main.12d7f3dd.chunk.js",
+    "main.js.map": "/explore-dhaka.git/static/js/main.12d7f3dd.chunk.js.map",
+    "runtime-main.js": "/explore-dhaka.git/static/js/runtime-main.60710b77.js",
+    "runtime-main.js.map": "/explore-dhaka.git/static/js/runtime-main.60710b77.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/explore-dhaka.git/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.97a7b5bd.chunk.js": "/explore-dhaka.git/static/js/2.97a7b5bd.chunk.js",
+    "static/js/2.97a7b5bd.chunk.js.map": "/explore-dhaka.git/static/js/2.97a7b5bd.chunk.js.map",
+    "index.html": "/explore-dhaka.git/index.html",
+    "precache-manifest.347a38f28da03d90c9989289f1574b9e.js": "/explore-dhaka.git/precache-manifest.347a38f28da03d90c9989289f1574b9e.js",
+    "service-worker.js": "/explore-dhaka.git/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/explore-dhaka.git/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.23548085.chunk.css.map": "/explore-dhaka.git/static/css/main.23548085.chunk.css.map",
+    "static/js/2.97a7b5bd.chunk.js.LICENSE.txt": "/explore-dhaka.git/static/js/2.97a7b5bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60710b77.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.97a7b5bd.chunk.js",
+    "static/css/main.23548085.chunk.css",
+    "static/js/main.12d7f3dd.chunk.js"
+  ]
+}
