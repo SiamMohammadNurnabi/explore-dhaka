@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import img from "../../assets/images/garaj.jpg";
 const location = (props) => {
+  console.log(img);
   return (
     <div className="col-10 col-lg-4 mx-auto mb-5" onClick={props.clicked}>
       <div

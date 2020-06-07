@@ -8,7 +8,7 @@ const newsCard = (props) => {
       <div className="card-body">
         <h5 className="card-title">{props.newsTitle}</h5>
         <p className="card-text">{props.newsText}</p>
-        <Link to="/" class="card-link">
+        <Link to="/" className="card-link">
           Read More > >
         </Link>
       </div>

@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Location from "../components/Location/Location";
 import { db } from "../services/firebase";
-// import { Route } from "react-router";
-// import PlaceDetail from "./PlaceDetail";
 import { Link } from "react-router-dom";
 class Locations extends Component {
   state = {

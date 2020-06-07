@@ -91,6 +91,7 @@ const placeDetail = (props) => {
           {/* map */}
           <div className="tab-pane fade" id="map" role="tabpanel">
             <iframe
+              title="map"
               src={props.loadedPost.maps}
               style={{
                 border: "2px solid dark",

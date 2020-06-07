@@ -33,6 +33,7 @@ class ContactUs extends Component {
                 <strong>Our Location</strong>
               </h4>
               <iframe
+                title="map"
                 src="https://www.google.com/maps/d/u/1/embed?mid=1h_r3bHpWw-nTr-jhPV1HXoo4gwvE75e5"
                 style={{
                   border: "0",
