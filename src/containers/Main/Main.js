@@ -21,6 +21,7 @@ class Main extends Component {
         <Switch>
           <Route path="/contact-us" component={ContactUs} />
           <Route path="/news" component={News} />
+          <Route path="/explore-dhaka" exact component={Home} />
           <Route path="/" exact component={Home} />
           <Route path={"/places/:id"} component={PlaceDetails} />
           <Route component={PageNotFound} />
